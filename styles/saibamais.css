@@ -1,0 +1,164 @@
+#carro_secao {
+    background-image: url(../img/Macara+\ back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 85vh;
+}
+
+#fusao {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.068) 0%, rgba(0, 0, 0, 0.164) 17%, rgba(0, 0, 0, 0.473) 100%);
+    height: 20vh;
+    width: 100vw;
+    margin-top: 655px;
+}
+
+#secao1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.959) 0%, rgba(0, 0, 0, 1) 17%, rgb(0, 0, 0) 100%);
+    height: 90vh;
+    width: 100vw;
+}
+
+#texto_secao>h1 {
+    font-size: 72px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+
+}
+
+#texto_secao>p {
+    font-size: 24px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 800px;
+    
+}
+#texto_exterior>ul>li{
+    color: red;
+font-size: 48px;
+margin-left: 170px;
+
+}
+#texto_exterior>ul>li>h2 {
+    font-size: 48px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 800;
+    color: white;
+ 
+}
+
+#texto_exterior>p {
+    font-size: 24px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin: 15px auto;
+    width: 650px;
+}
+#interior{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 50%;
+}
+#fusao2{
+background-image: url(../img/Rectangle\ 8.png);
+width: 100vw;
+height: 90px
+}
+#motor{
+    background-image: url(../img/Shelby_gt500_05-1024x683\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+}
+
+#titulo_motor>h2{
+    font-size: 144px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#divisao_motor{
+    margin-left:160px;  
+    border-right:200px solid rgb(255, 6, 6);
+  
+}
+#texto_motor>ul>li{
+color: red;
+font-size: 50px;
+
+}
+#texto_motor>ul>li>h3{
+    
+    font-size: 50px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 800;
+    color: white;
+    margin-top:30px;
+}
+#texto_motor>p{
+    font-size: 24px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    text-align: left;
+    margin: 15px auto;
+    width: 500px;
+}
+#info_motor{
+    margin-top: 200px;
+}
+#info_motor>ul>li{
+    color: red;
+    font-size: 50px;
+
+}
+#info_motor>ul>li>h3{
+    font-size: 50px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+#info_motor>p{
+    font-size: 24px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    text-align: left;
+    margin: 15px auto;
+    width: 600px;
+}
+
+@media screen and (max-width:1280px) {
+    body{
+        width: 50%;
+    }
+    #interior{
+        width: 40%;
+    }    
+}
+
+@media screen and (max-width:1024px) {
+    #interior{
+        width: 30%;
+    }    
+   .exterior_interior{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+
+} 

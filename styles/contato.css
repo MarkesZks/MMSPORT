@@ -1,0 +1,94 @@
+.wrapper2 {
+    width: 95%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+#link-ativo{
+    text-decoration: underline;
+    text-decoration-color: #ff0000;
+ 
+}
+.cabecalio_cnt{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.texto_contato>h2{
+    color: #880404;
+    margin-bottom: 32px;
+    margin-top: 80px;
+    font-size: 26px;
+    font-family: 'Tomorrow', sans-serif;
+    
+}
+.texto_contato>p{
+    color: #b6b6b6;
+    font-size: 16px;
+    font-family: 'Ruda', sans-serif;
+}
+#form_contato{
+    margin-top: 64px;
+}
+.inputs_form{
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    
+}
+.input_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    margin-bottom: 32px;
+    
+}
+.input_textarea{
+    width: 100%;
+    resize: none;
+}
+.input_textarea>textarea{
+    resize: none;
+    height: 120px;
+}
+.input_texto>input, .input_texto>textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #880404;
+    background-color: #f3f5f7;
+    font-size:18px ;
+    color: #0a0000;
+    font-family: 'Ruda', sans-serif;
+
+    ;
+}
+.input_texto>input:focus, .input_textarea>textarea:focus{
+outline:none;
+border-color: #000000;
+}
+.input_texto>label{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #aa0202;
+    font-family: 'Ruda', sans-serif;
+
+    
+}
+input::placeholder, textarea::placeholder{
+    color: #570c0c67;
+}
+#btn_enviar{
+    background: linear-gradient(90deg, #3b303a 0%, #5f1111 100%);
+    color: white;
+    padding: 22px 42px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Ruda', sans-serif;
+    margin-bottom: 210px;
+
+}
+#btn_enviar:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}

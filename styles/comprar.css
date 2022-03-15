@@ -1,0 +1,8 @@
+body{
+    background-color: grey;
+}
+.wrapper2{
+    width: 90%;
+    max-width: 1840px;
+    margin: 0px auto;
+}

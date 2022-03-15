@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#carro1 {
+    background-image: url(../img/joey-banks-YApiWyp0lqo-unsplash\ 1.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#carro2 {
+    background-image: url(../img/carro2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+#carro3 {
+    background-image: url(../img/carro3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+#carro4 {
+    background-image: url(../img/carro4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconeMM {
+    margin-top: 8px;
+    width: 130px;
+}
+
+.separacao {
+    height: 28px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.links_nav>a {
+    margin: 0px 15px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    
+    
+}
+
+.seachbar {
+    width: 400px;
+    height: 28px;
+    border-radius: 12px;
+    background-color: #fffffff5;
+    margin-right: 300px;
+}
+
+.seachbar>i {
+    margin: 0px 5px;
+}
+
+.barrapesquisa {
+    padding: 5px;
+    height: 28px;
+    width: 400px;
+    border-radius: 12px;
+    border: none;
+    background-color: inherit;
+}
+
+input {
+    font-family: 'Ruda', sans-serif;
+    font-size: 15px;
+}
+
+.barrapesquisa:focus {
+    outline: none;
+}
+
+.text_carros {
+    font-size: 72px;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.botoes {
+    margin-top: 500px;
+    text-align: center;
+}
+
+
+.btn_esq {
+    cursor: pointer;
+    margin: 0px 20px;
+    padding: 9px 44px;
+    border-radius: 60px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+.btn_dir {
+    cursor: pointer;
+    margin: 0px 20px;
+    padding: 9px 44px;
+    border-radius: 60px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+    background-color: #BAB8B8;
+}
+.btn_dir:hover{
+    opacity: 80%;
+}
+footer{
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.945);
+    width: 100vw;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+   
+ .seachbar {
+display: none;
+ }
+.botoes{
+    margin-top: 400px;
+}
+}
+
+@media screen and (max-width: 1050px) {
+   
+    .seachbar {
+   display: none;
+    }
+   .botoes{
+       margin-top: 200px;
+   }
+   }
+
+
+@media screen and (max-width: 600px) {
+    #carro1{
+        background-position: 50%;
+    }
+    #carro2{
+        background-position: 30%;
+    }
+    #carro3{
+        background-position: 40%;
+    }
+    #carro4{
+        background-position: 60%;
+    }
+   .botoes{
+       margin-top: 500px;
+   }
+   .btn_esq{
+      padding: 10px;
+   }
+   .btn_dir{
+    padding: 10px;
+}
+.text_carros {
+    font-size: 50px;
+}
+    
+   }
+   @media screen and (max-width: 380px) {
+    .botoes{
+        margin-top: 300px;
+    }
+   }
+
+   @media screen and (max-width: 285px) {
+    .botoes{
+        margin-top: 250px;
+    }
+    .btn_esq{
+       padding: 5px;
+       font-size: 14px;
+    }
+    .btn_dir{
+     padding: 5px;
+     font-size: 14px;
+   }
+   .text_carros {
+    font-size: 40px;
+}
+   }
+   @media screen and (min-height: 1300px) {
+    #carro1{
+        background-position: 50%;
+    }
+    #carro2{
+        background-position: 30%;
+    }
+    #carro3{
+        background-position: 40%;
+    }
+    #carro4{
+        background-position: 60%;
+    }
+    .text_carros {
+        font-size: 110px;
+    }
+    .botoes{
+    margin-top: 750px;
+}
+.btn_esq{
+    padding: 20px;
+    font-size: 30px;
+
+ }
+ .btn_dir{
+  padding: 20px;
+  font-size: 30px;
+   }
+
+
+   @media screen and (max-height: 1180px) {
+    .botoes{
+        margin-top: 750px;
+    }
+
+   }
+   @media screen and (max-height: 1024px) {
+    .botoes{
+        margin-top: 400px;
+    }
+
+   }
+   @media screen and (max-height: 920px) {
+    .botoes{
+        margin-top: 450px;
+    }
+   }
+   @media screen and (max-height: 915px) {
+    
+        .text_carros {
+            font-size: 60px;
+        }
+        .botoes{
+        margin-top: 300px;
+    }
+    .btn_esq{
+        padding: 5px;
+        font-size: 24px;
+    
+     }
+     .btn_dir{
+      padding: 5px;
+      font-size: 24px;
+       }
+    
+    }
+   }
+   @media screen and (max-height: 740px) {
+    
+    .text_carros {
+        font-size: 60px;
+    }
+    .botoes{
+    margin-top: 300px;
+}
+.btn_esq{
+    padding: 5px;
+    font-size: 20px;
+
+ }
+ .btn_dir{
+  padding: 5px;
+  font-size: 20px;
+   }
+
+}
+   @media screen and (max-height: 800px) {
+    .botoes{
+        margin-top: 300px;
+    }
+   }
+   @media screen and (max-height: 670px) {
+    .botoes{
+        margin-top: 200px;
+    }
+    
+   }
+   
+   @media screen and (max-height: 600px) {
+    .botoes{
+        margin-top: 200px;
+    }
+    .text_carros {
+        font-size: 60px;
+    }
+   }
+   
