@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -68,13 +69,20 @@ a {
     border-right: 1px solid rgb(255, 255, 255);
 }
 
+#btn-mobile {
+    display: none;
+    border-radius: 35px;
+    border-style: solid;
+    padding: 13px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .links_nav>a {
     margin: 0px 15px;
     font-size: 19px;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    
-    
 }
 
 .seachbar {
@@ -141,10 +149,13 @@ input {
     font-size: 20px;
     background-color: #BAB8B8;
 }
-.btn_dir:hover{
+
+.btn_dir:hover {
     opacity: 80%;
 }
-footer{
+
+
+footer {
     text-align: center;
     font-family: 'Ruda', sans-serif;
     color: #ffffff;
@@ -156,179 +167,85 @@ footer{
 
 
 @media screen and (max-width: 1300px) {
-   
- .seachbar {
-display: none;
- }
-.botoes{
-    margin-top: 400px;
-}
-}
 
-@media screen and (max-width: 1050px) {
-   
     .seachbar {
-   display: none;
-    }
-   .botoes{
-       margin-top: 200px;
-   }
-   }
-
-
-@media screen and (max-width: 600px) {
-    #carro1{
-        background-position: 50%;
-    }
-    #carro2{
-        background-position: 30%;
-    }
-    #carro3{
-        background-position: 40%;
-    }
-    #carro4{
-        background-position: 60%;
-    }
-   .botoes{
-       margin-top: 500px;
-   }
-   .btn_esq{
-      padding: 10px;
-   }
-   .btn_dir{
-    padding: 10px;
-}
-.text_carros {
-    font-size: 50px;
-}
-    
-   }
-   @media screen and (max-width: 380px) {
-    .botoes{
-        margin-top: 300px;
-    }
-   }
-
-   @media screen and (max-width: 285px) {
-    .botoes{
-        margin-top: 250px;
-    }
-    .btn_esq{
-       padding: 5px;
-       font-size: 14px;
-    }
-    .btn_dir{
-     padding: 5px;
-     font-size: 14px;
-   }
-   .text_carros {
-    font-size: 40px;
-}
-   }
-   @media screen and (min-height: 1300px) {
-    #carro1{
-        background-position: 50%;
-    }
-    #carro2{
-        background-position: 30%;
-    }
-    #carro3{
-        background-position: 40%;
-    }
-    #carro4{
-        background-position: 60%;
-    }
-    .text_carros {
-        font-size: 110px;
-    }
-    .botoes{
-    margin-top: 750px;
-}
-.btn_esq{
-    padding: 20px;
-    font-size: 30px;
-
- }
- .btn_dir{
-  padding: 20px;
-  font-size: 30px;
-   }
-
-
-   @media screen and (max-height: 1180px) {
-    .botoes{
-        margin-top: 750px;
+        display: none;
     }
 
-   }
-   @media screen and (max-height: 1024px) {
-    .botoes{
+    .botoes {
         margin-top: 400px;
     }
+}
 
-   }
-   @media screen and (max-height: 920px) {
-    .botoes{
-        margin-top: 450px;
+@media screen and (max-width: 605px) {
+
+    #btn-mobile {
+        display: block;
     }
-   }
-   @media screen and (max-height: 915px) {
-    
-        .text_carros {
-            font-size: 60px;
-        }
-        .botoes{
-        margin-top: 300px;
+
+    .links_nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 10%;
+        right: 0px;
+        align-items: flex-end;
+        margin-right: 15px;
     }
-    .btn_esq{
-        padding: 5px;
-        font-size: 24px;
-    
-     }
-     .btn_dir{
-      padding: 5px;
-      font-size: 24px;
-       }
-    
+    .links_nav>A{
+        padding: 3px;
     }
-   }
-   @media screen and (max-height: 740px) {
-    
+
+    .separacao {
+        display: none;
+    }
+
+    .links_nav.active {
+        display: flex;
+
+    }
+}
+
+@media screen and (max-width: 534px) {
+
+    #carro1 {
+        background-position: 50%;
+    }
+
+    #carro2 {
+        background-position: 50%;
+    }
+
+    #carro3 {
+        background-position: 50%;
+    }
+
+    #carro4 {
+        background-position: 50%;
+    }
+.text_carros {
+    margin-top: 150px;
+}
+    .seachbar {
+        display: none;
+    }
+
+    .botoes {
+        margin-top: 400px;
+    }
+}
+
+@media screen and (max-width: 505px) {
     .text_carros {
         font-size: 60px;
     }
     .botoes{
-    margin-top: 300px;
+        margin-top: 199px;
+    }
+    .botoes>a{
+      display: flex ;
+      margin: 30px;
+      justify-content: center;
+    }
 }
-.btn_esq{
-    padding: 5px;
-    font-size: 20px;
-
- }
- .btn_dir{
-  padding: 5px;
-  font-size: 20px;
-   }
-
-}
-   @media screen and (max-height: 800px) {
-    .botoes{
-        margin-top: 300px;
-    }
-   }
-   @media screen and (max-height: 670px) {
-    .botoes{
-        margin-top: 200px;
-    }
-    
-   }
-   
-   @media screen and (max-height: 600px) {
-    .botoes{
-        margin-top: 200px;
-    }
-    .text_carros {
-        font-size: 60px;
-    }
-   }
-   
