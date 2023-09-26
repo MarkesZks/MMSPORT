@@ -29,4 +29,4 @@ Estou sempre disponível para contribuições e dicas para melhoria do meu proje
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-marques-messias-824761206/)
 
-<p align="center">Copyright © 2021 Seu Usuario</p>
+<p align="center">Copyright © 2021 MarkesZks</p>
